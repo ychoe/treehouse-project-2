@@ -106,7 +106,7 @@ searchInput.addEventListener('keyup', (event) => {
             searchResults.push(student); //and the matched student variable will be pushed into the empty array
         }
 
-        if (searchResults.length === 0) {  //but if the search results does not match with anything the user inputed into the search field
+        if (searchResults.length === 0) {  //but if the search results does not match with anything the user inputted into the search field
             noSearchResults.style.display = 'block'; //the 'No results' text will display in the page
         }
 
@@ -121,12 +121,11 @@ searchInput.addEventListener('keyup', (event) => {
 
 
 
-/*declared the functions showPage and showStudents and having the required 
-parameters inside of them to work. Put studentItem as a parameter, since the total amount of students is based on the array of student-item.
+/*declared the functions showPage and showStudents and having the required parameters inside of them to work. 
+Put studentItem as a parameter, since the total amount of students is based on the array of student-item.
 Put 1 as selectedPages parameter to show the first ten students when you load up the page, and studentItem
 as the the second parameter, since listOfStudents is based off of student-item as the total amount of listOfStudents
-which should be 54
-*/
+which should be 54 */
 showPage(studentItem);
 showStudents(1, studentItem);
 
